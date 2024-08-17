@@ -1,0 +1,8 @@
+/.vscode/
+/*.iml
+.DS_Store
+
+target/
+*.lock%
+.env
+.cache

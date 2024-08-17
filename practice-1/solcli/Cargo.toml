@@ -1,0 +1,12 @@
+[package]
+name = "solcli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0"
+bs58 = "0.4"
+clap = { version = "4.3", features = ["derive"] }
+dotenvy = "*"
+solana-client = "1.14"
+solana-sdk = "1.14"
